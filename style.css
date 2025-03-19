@@ -10,3 +10,200 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: block-theme, full-site-editing
 Text Domain: invoice-360-vonome
 */
+p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  /* Ensure it stays above other content */
+  background: var(--wp--preset--color--background, #fff);
+  /* Set a background color */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  /* Optional: Add subtle shadow */
+}
+
+.header-menu .nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  /* Adjust spacing between menu items */
+}
+
+.header-menu .nav-menu li {
+  position: relative;
+}
+
+.header-menu .nav-menu a {
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Active and hover styles */
+.header-menu .nav-menu a:active,
+.header-menu .nav-menu a:hover,
+.header-menu .nav-menu .current-menu-item > a,
+.header-menu .nav-menu .current_page_item > a {
+  color: #149e85;
+}
+
+/* Dropdown menu styles */
+.header-menu .sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  /* Positioning below the parent menu item */
+  left: 0;
+  list-style: none;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 5px 0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
+
+.header-menu .sub-menu li {
+  padding: 5px 15px;
+}
+
+.header-menu .sub-menu a {
+  color: black;
+  padding: 5px 10px;
+  white-space: nowrap;
+  /* Prevent breaking on long menu items */
+}
+
+.header-menu .sub-menu a:hover {
+  color: #149e85;
+  background-color: #f5f5f5;
+}
+
+/* Show dropdown menu on hover */
+.header-menu .menu-item-has-children:hover > .sub-menu {
+  display: block;
+}
+
+/* Add down arrow for items with submenus */
+.header-menu .menu-item-has-children > a::after {
+  /* content: "∨"; */
+  /* Unicode for down arrow */
+  font-size: 0.7em;
+  margin-left: 8px;
+  /* Add spacing between text and arrow */
+  color: inherit;
+  /* Match arrow color with text */
+  transition: transform 0.3s ease;
+  /* Smooth animation */
+}
+
+/* Rotate arrow on hover */
+.header-menu .menu-item-has-children:hover > a::after {
+  transform: rotate(180deg);
+  /* Flip arrow up */
+}
+
+.header-logo {
+  width: 60px;
+  height: 52px;
+}
+.header-logo-mobile {
+  width: 38px;
+  height: 36px;
+}
+
+/* Contact us button*/
+.header-action {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.header-btn {
+  padding: 12px 36px;
+  border-radius: 30px;
+  background-image: linear-gradient(180deg, #272726 0%, #4b4b4b 100%);
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.header-btn-alt {
+  background-image: none;
+  border: 1px solid #272726;
+  color: #272726;
+}
+
+.header-btn-alt:hover {
+  background-image: linear-gradient(180deg, #272726 0%, #4b4b4b 100%);
+  color: #fff;
+}
+.footer-area {
+  background-color: #fff;
+  color: #272726;
+}
+
+.copy-wtite-section {
+  margin: 30px 0;
+  background-color: #fff;
+  color: #272726;
+}
+
+.copy-wtite-area {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid #ddd;
+  display: block;
+  margin: 0 auto;
+}
+.copy-wtite-area p {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.copy-wtite-area a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-logo {
+  width: 56px;
+  height: 48px;
+}
+
+footer h5 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer a {
+  color: #272726;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.footer-widgets {
+  display: flex;
+  gap: 60px;
+}
