@@ -22,8 +22,11 @@ add_action('wp_enqueue_scripts', 'invoice_360_assets');
 function enqueue_assets()
 {
     wp_enqueue_style('bootstrap-css', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css', [], '5.3.0-alpha3');
-    wp_enqueue_style('responsive', get_template_directory_uri() . '/assets/css/responsive.css', [], '1.0.0.0');
     wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js', [], '5.3.0-alpha3', true);
+    //Responsive styles
+    wp_enqueue_style('responsive', get_template_directory_uri() . '/assets/css/responsive.css', [], '1.0.0.0');
+    //TailwindCSS
+    wp_enqueue_style('tailwindcss', get_template_directory_uri() . '/assets/css/output.css', [], '1.0.0.0');
 }
 add_action('wp_enqueue_scripts', 'enqueue_assets');
 
