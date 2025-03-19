@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Title: Hero Section
- * Slug: invoice-360-vonome/hero-section
- * Categories: home
- * Block Types: core/template-part/hero-section
- * Description: Hero Section with Company Short Description.
+ * Title: Coming Soon Page
+ * Slug: invoice-360-vonome/coming-soon
+ * Categories: Coming Soon
+ * Block Types: core/template-part/coming-soon
+ * Description: Coming Soon Page.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -23,6 +23,13 @@
 		<div class="wp-block-group alignfull">
 			<!-- wp:columns -->
 			<div class="wp-block-columns">
+				<!-- wp:column {"width":"100%"} -->
+				<div class="wp-block-column text-center coming-soon" style="flex-basis:100%">
+					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/coming-soon.jpg" alt="" srcset="">
+					<p>আমরা কিছু অসাধারণ আপডেট ও নতুন ফিচার নিয়ে কাজ করছি! আমাদের নতুন পরিষেবা শীঘ্রই চালু হতে যাচ্ছে। নতুন অভিজ্ঞতা পেতে আমাদের সঙ্গে থাকুন!</p>
+					<a class="btnPrimary" href="#">হোমপেজে ফিরে যান</a>
+				</div>
+				<!-- /wp:column -->
 
 				<!-- wp:column {"width":""} -->
 				<div class="wp-block-column">

@@ -9,4 +9,10 @@
   .header-btn {
     padding: 6px 24px;
   }
+  .coming-soon img {
+    width: 100%;
+  }
+  .coming-soon p {
+    width: 100%;
+  }
 }

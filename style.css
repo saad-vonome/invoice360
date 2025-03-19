@@ -10,10 +10,24 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Tags: block-theme, full-site-editing
 Text Domain: invoice-360-vonome
 */
+
+/* //Common Styles */
 p {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.btnPrimary {
+  border-radius: 30px;
+  padding: 17px 36px;
+  background: linear-gradient(95.35deg, #149e85 6.26%, #1ed0b0 112.27%);
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  border: none;
+  text-decoration: none;
 }
 
 header {
@@ -206,4 +220,13 @@ footer a {
 .footer-widgets {
   display: flex;
   gap: 60px;
+}
+
+.coming-soon p {
+  width: 600px;
+  text-align: center;
+  display: block;
+  margin: 32px auto;
+  font-size: 20px;
+  line-height: 32px;
 }
