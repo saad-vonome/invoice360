@@ -18,6 +18,14 @@ p {
   font-style: normal;
 }
 
+a {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 26px;
+}
+
 .btnPrimary {
   border-radius: 30px;
   padding: 17px 36px;
@@ -229,4 +237,33 @@ footer a {
   margin: 32px auto;
   font-size: 20px;
   line-height: 32px;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  width: 100%;
+  background: linear-gradient(
+      90deg,
+      rgba(97, 131, 255, 0.7) 1.38%,
+      rgba(255, 255, 255, 0.7) 55.83%
+    ),
+    url("./assets/images/hero-bg-shape.png");
+  background-size: cover; /* Ensure the image covers the section */
+  background-position: center; /* Position the image in the center */
+}
+.hero-content {
+  max-width: 810px;
+  width: 100%;
+}
+.hero-section h1 {
+  text-align: center;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.google-play {
+  height: 35px;
+  width: 120px;
 }
