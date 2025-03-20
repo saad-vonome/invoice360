@@ -27,7 +27,7 @@
 				<div class="wp-block-column text-center coming-soon" style="flex-basis:100%">
 					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/coming-soon.jpg" alt="" srcset="">
 					<p>আমরা কিছু অসাধারণ আপডেট ও নতুন ফিচার নিয়ে কাজ করছি! আমাদের নতুন পরিষেবা শীঘ্রই চালু হতে যাচ্ছে। নতুন অভিজ্ঞতা পেতে আমাদের সঙ্গে থাকুন!</p>
-					<a class="btnPrimary" href="#">হোমপেজে ফিরে যান</a>
+					<a class="btnPrimary" href="/home">হোমপেজে ফিরে যান</a>
 				</div>
 				<!-- /wp:column -->
 

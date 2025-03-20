@@ -32,8 +32,8 @@
             <!-- /wp:group -->
             <!-- wp:group -->
             <div class="header-action">
-                <a href="/" class="header-btn header-btn-alt">সাইন ইন</a>
-                <a href="/" class="header-btn">সাইন আপ</a>
+                <a href="https://app.invoice360.xyz/login" class="header-btn header-btn-alt">সাইন ইন</a>
+                <a href="https://app.invoice360.xyz/signup" class="header-btn">সাইন আপ</a>
             </div>
             <!-- /wp:group -->
         </div>
@@ -52,7 +52,7 @@
             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/invoice-360-logo.png" alt="" srcset="" class="header-logo-mobile">
         </a>
         <div class="d-flex align-items-center gap-3">
-            <a href="/contact-us" class="header-btn header-btn-alt">সাইন ইন</a>
+            <a href="https://app.invoice360.xyz/login" class="header-btn header-btn-alt">সাইন ইন</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
