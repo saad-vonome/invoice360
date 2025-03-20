@@ -14,7 +14,7 @@
 
 ?>
 <section class="container-fluid">
-	<div class="container py-5">
+	<div class="container py-5 bg-amber-400">
 		<h1>Invoice360 – দ্রুত, সহজ ও স্মার্ট ইনভয়েসিং সমাধান</h1>
 	</div>
 </section>
