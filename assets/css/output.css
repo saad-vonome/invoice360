@@ -168,6 +168,9 @@
   .collapse {
     visibility: collapse;
   }
+  .fixed {
+    position: fixed;
+  }
   .container {
     width: 100%;
     @media (width >= 40rem) {

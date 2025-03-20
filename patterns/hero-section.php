@@ -27,6 +27,12 @@
 					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/get-it-on-google-play.png" alt="Get In On Google Play" class="google-play" />
 				</a>
 			</div>
+			<div>
+				<p>
+					<i class="fa-solid fa-circle-check"></i>
+					ইনভয়েস ম্যানেজমেন্ট
+				</p>
+			</div>
 		</div>
 	</div>
 </section>
