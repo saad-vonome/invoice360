@@ -16,6 +16,11 @@
 <section class="hero-section">
 	<div class="max-xl mx-auto pt-14 pb-16 text-center">
 		<div class="hero-content mx-auto">
+			<div class="notification">
+				<button>New</button>
+				<p>শীঘ্রই আরো নতুন ফিচারস যুক্ত হচ্ছে</p>
+				<p><i class="fa-solid fa-angle-right"></i></p>
+			</div>
 			<h1>Invoice360 – দ্রুত, সহজ ও স্মার্ট ইনভয়েসিং সমাধান</h1>
 			<p class="pt-6">
 				💼 আপনার ব্যবসার হিসাব-নিকাশ ও লেনদেন ব্যবস্থাপনাকে আনুন সম্পূর্ণ ডিজিটাল প্ল্যাটফর্মে!<br />
@@ -27,10 +32,22 @@
 					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/get-it-on-google-play.png" alt="Get In On Google Play" class="google-play" />
 				</a>
 			</div>
-			<div>
+			<div class="flex items-center gap-3 justify-center features">
 				<p>
-					<i class="fa-solid fa-circle-check"></i>
+					<i class="fa-regular fa-circle-check"></i>
 					ইনভয়েস ম্যানেজমেন্ট
+				</p>
+				<p>
+					<i class="fa-regular fa-circle-check"></i>
+					কাস্টমার ডেটাবেস
+				</p>
+				<p>
+					<i class="fa-regular fa-circle-check"></i>
+					বিক্রয় ও ব্যয়ের ট্র্যাকিং
+				</p>
+				<p>
+					<i class="fa-regular fa-circle-check"></i>
+					সহজ রিপোর্টিং
 				</p>
 			</div>
 		</div>

@@ -255,6 +255,27 @@ footer a {
   max-width: 810px;
   width: 100%;
 }
+.notification {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: fit-content;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 30px;
+  padding: 0px 4px;
+  padding-top: 16px;
+  background: linear-gradient(90deg, #f5f5f5 0%, #f9f9f9 100%);
+  height: 34px;
+}
+.notification button {
+  border-radius: 20px;
+  background: #6183ff;
+  display: flex;
+  padding: 0px 10px 2px 10px;
+  margin-top: -16px;
+  color: #fff;
+}
 .hero-section h1 {
   text-align: center;
   font-size: 64px;
@@ -266,4 +287,8 @@ footer a {
 .google-play {
   height: 35px;
   width: 120px;
+}
+.features p > i {
+  margin-right: 8px;
+  color: #149e85;
 }
