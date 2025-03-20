@@ -13,35 +13,8 @@
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}},{"background-color": #000;}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group container" style="padding-top:var(--wp--preset--spacing--60);padding-bottom:var(--wp--preset--spacing--50)">
-	<!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-	<div class="wp-block-group alignwide">
-		<!-- wp:site-logo /-->
-
-		<!-- wp:group {"align":"full","layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","verticalAlignment":"top"}} -->
-		<div class="wp-block-group alignfull">
-			<!-- wp:columns -->
-			<div class="wp-block-columns">
-
-				<!-- wp:column {"width":""} -->
-				<div class="wp-block-column">
-					<!-- wp:spacer {"height":"var:preset|spacing|40","width":"0px"} -->
-					<div style="height:var(--wp--preset--spacing--40);width:0px" aria-hidden="true" class="wp-block-spacer"></div>
-					<!-- /wp:spacer -->
-				</div>
-				<!-- /wp:column -->
-			</div>
-			<!-- /wp:columns -->
-		</div>
-		<!-- /wp:group -->
-
-		<!-- wp:spacer {"height":"var:preset|spacing|70"} -->
-		<div style="height:var(--wp--preset--spacing--70)" aria-hidden="true" class="wp-block-spacer"></div>
-		<!-- /wp:spacer -->
+<section class="container-fluid">
+	<div class="container py-5">
+		<h1>Invoice360 – দ্রুত, সহজ ও স্মার্ট ইনভয়েসিং সমাধান</h1>
 	</div>
-	<!-- /wp:group -->
-</div>
-<!-- /wp:group -->
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|60","bottom":"var:preset|spacing|50"}},{"background-color": #000;}},"layout":{"type":"constrained"}} -->
-<!-- /wp:group -->
+</section>
