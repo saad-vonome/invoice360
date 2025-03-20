@@ -241,15 +241,22 @@ footer a {
 
 /* Hero Section Styles */
 .hero-section {
-  width: 100%;
+  width: 99%;
+  margin: 0 auto;
+  border-radius: 0px 0px 24px 24px;
   background: linear-gradient(
       90deg,
       rgba(97, 131, 255, 0.7) 1.38%,
       rgba(255, 255, 255, 0.7) 55.83%
     ),
+    linear-gradient(
+      336deg,
+      rgba(20, 158, 133, 0.7) 1.24%,
+      rgba(255, 255, 255, 0.7) 56.2%
+    ),
     url("./assets/images/hero-bg-shape.png");
-  background-size: cover; /* Ensure the image covers the section */
-  background-position: center; /* Position the image in the center */
+  background-size: cover;
+  background-position: center;
 }
 .hero-content {
   max-width: 810px;

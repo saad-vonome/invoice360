@@ -14,7 +14,7 @@
 
 ?>
 <section class="hero-section">
-	<div class="max-xl mx-auto pt-14 pb-16 text-center">
+	<div class="max-xl mx-auto pt-14 text-center">
 		<div class="hero-content mx-auto">
 			<div class="notification">
 				<button>New</button>
@@ -27,7 +27,7 @@
 				⚡ সেকেন্ডের মধ্যে ইনভয়েস তৈরি করুন, পাঠান, পেমেন্ট ট্র্যাক ও পেমেন্ট গ্রহণ করুন।
 			</p>
 			<div class="flex items-center gap-8 justify-center my-8">
-				<a href="#" class="btnPrimary">ফ্রি ব্যবহার করুন</a>
+				<a href="https://app.invoice360.xyz/" class="btnPrimary">ফ্রি ব্যবহার করুন</a>
 				<a class="header-btn" href="#">
 					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/get-it-on-google-play.png" alt="Get In On Google Play" class="google-play" />
 				</a>
@@ -51,5 +51,6 @@
 				</p>
 			</div>
 		</div>
+		<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/invoice-preview.png" alt="Invoice preview" class="mx-auto" />
 	</div>
 </section>
