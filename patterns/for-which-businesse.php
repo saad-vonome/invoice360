@@ -82,5 +82,9 @@ $businesses = [
 				</div>
 			<?php endforeach; ?>
 		</div>
+		<div class="flex flex-col md:flex-row items-center gap-6 md:gap-8 justify-center my-8">
+			<a href="https://app.invoice360.xyz/" class="btnPrimary actionBtn">বিজনেস বুকে বিস্তারিত দেখুন</a>
+			<a href="https://app.invoice360.xyz/" class="btnPrimaryAlt actionBtn">ফ্রি ব্যবহার করুন</a>
+		</div>
 	</div>
 </section>

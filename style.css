@@ -36,6 +36,23 @@ a {
   line-height: 26px;
   border: none;
   text-decoration: none;
+  text-align: center;
+}
+.btnPrimaryAlt {
+  border: 1px solid #149e85;
+  border-radius: 30px;
+  padding: 17px 36px;
+  background: transparent;
+  color: #149e85;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration: none;
+  text-align: center;
+}
+.btnPrimaryAlt:hover {
+  background: linear-gradient(95.35deg, #149e85 6.26%, #1ed0b0 112.27%);
+  color: #fff;
 }
 
 header {
