@@ -52,4 +52,22 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  /* For which business styles */
+  .which-businesse h2 {
+    width: 100%;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .business-owner {
+    display: none;
+  }
+  .which-businesse-details {
+    padding: 24px 16px;
+  }
+  .which-businesse-single h5 {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
