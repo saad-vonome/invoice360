@@ -29,7 +29,7 @@
 			<div class="flex flex-col md:flex-row items-center gap-6 md:gap-8 justify-center my-8">
 				<a href="https://app.invoice360.xyz/" class="btnPrimary actionBtn">ফ্রি ব্যবহার করুন</a>
 				<a class="header-btn actionBtn" href="#">
-					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/get-it-on-google-play.png" alt="Get In On Google Play" class="google-play" />
+					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/google-play.png" alt="Get In On Google Play" class="google-play" />
 				</a>
 			</div>
 			<div class="grid grid-cols-2 md:grid-cols-4 items-center gap-3 justify-center features">
