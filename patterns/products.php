@@ -54,7 +54,7 @@ $products = [
 <section class="products">
 	<div class="container max-xl mx-auto">
 		<h2 class="text-center">আপনার ব্যবসার জন্য সঠিক সমাধান বেছে নিন!</h2>
-		<div class="flex gap-12 mt-12 justify-center">
+		<div class="flex flex-col md:flex-row gap-6 md:gap-12 mt-12 justify-center">
 			<?php foreach ($products as $product): ?>
 				<div class="product">
 					<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $product['image']); ?>" alt="<?php echo esc_attr($product['title']); ?>" />
@@ -66,7 +66,7 @@ $products = [
 					</div>
 					<div class="mt-8 specs">
 						<?php foreach ($product['specs'] as $spec): ?>
-							<p>
+							<p class="flex items-center gap-2.5">
 								<i class="fa-solid fa-circle-check"></i>
 								<?php echo esc_html($spec); ?>
 							</p>
