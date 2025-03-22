@@ -174,4 +174,11 @@
     font-size: 14px;
     line-height: 22px;
   }
+  .testimonials {
+    padding: 100px 0px;
+  }
+  .testimonials h2 {
+    font-size: 32px;
+    line-height: 44px;
+  }
 }

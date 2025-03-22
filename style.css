@@ -591,3 +591,82 @@ footer a {
   font-weight: 400;
   line-height: 26px;
 }
+
+/* Testimonials Section Styles */
+.testimonials {
+  padding: 120px 0px;
+  margin: 0 auto;
+  background: linear-gradient(121deg, #e1fafa 0%, #ebf0ff 100%),
+    url("./assets/images/products-bg-shape.svg");
+  background-size: cover;
+  background-position: center;
+}
+.testimonials h2 {
+  color: #272726;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 56px;
+}
+.ctrl-angle {
+  display: flex;
+  padding: 20px 14px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #149e85;
+}
+.carousel-inner {
+  padding: 24px 0px;
+}
+.testimonial-card {
+  background: #fff;
+  border-radius: 30px;
+  padding: 32px 24px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  padding: 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.testimonial-client img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 100%;
+}
+.testimonial-card h4 {
+  color: #272726;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+.testimonial-card > .desc {
+  color: #272726;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.testimonial-client h5 {
+  color: #555556;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.testimonial-client p {
+  color: #64748b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
