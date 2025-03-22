@@ -14,7 +14,7 @@
 
 ?>
 <section class="block-class-name">
-    <div class="container max-xl mx-auto py-24 md:py-36">
+    <div class="container max-xl mx-auto py-24 md:py-32">
 
     </div>
 </section>

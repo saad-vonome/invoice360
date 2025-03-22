@@ -42,7 +42,7 @@ $features = [
 
 ?>
 <section class="features">
-    <div class="container max-xl mx-auto py-24 md:py-36">
+    <div class="container max-xl mx-auto py-24 md:py-32">
         <div class="block mx-auto text-center">
             <h2>Invoice360-এর শক্তিশালী ফিচারসমূহ – ব্যবসা ব্যবস্থাপনা আরও সহজ!</h2>
             <a href="https://app.invoice360.xyz/login" class="btnPrimary">ফ্রি ব্যবহার করুন</a>

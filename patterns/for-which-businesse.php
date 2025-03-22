@@ -62,7 +62,7 @@ $businesses = [
 
 ?>
 <section class="which-businesse">
-	<div class="container max-xl mx-auto py-24 md:py-36">
+	<div class="container max-xl mx-auto py-24 md:py-32">
 		<div class="md:flex items-center justify-between mb-10 md:mb-14">
 			<div>
 				<h2>Invoice360 যে সব ব্যবসার জন্য উপযোগী</h2>

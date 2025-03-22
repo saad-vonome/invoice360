@@ -147,4 +147,31 @@
     font-size: 16px;
     line-height: 24px;
   }
+
+  /* Achievement Section Styles */
+  .achievements h2 {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 32px;
+  }
+  .achievement {
+    padding: 12px;
+    border-radius: 16px;
+    height: 200px;
+  }
+  .achievement-exeption {
+    display: flex;
+  }
+  .achievement h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .achievement h5 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .achievement p {
+    font-size: 14px;
+    line-height: 22px;
+  }
 }

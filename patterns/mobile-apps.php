@@ -32,7 +32,7 @@ $appfeatures = [
 
 ?>
 <section class="moible-apps">
-    <div class="container max-xl mx-auto py-24 md:py-36">
+    <div class="container max-xl mx-auto py-24 md:py-32">
         <div class="apps-titledesc">
             <h2>আপনার ব্যবসা এখন আপনার পকেটে</h2>
             <p>
