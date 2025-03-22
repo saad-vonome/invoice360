@@ -32,7 +32,7 @@
 					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/google-play.png" alt="Get In On Google Play" class="google-play" />
 				</a>
 			</div>
-			<div class="grid grid-cols-2 md:grid-cols-4 items-center gap-3 justify-center features">
+			<div class="grid grid-cols-2 md:grid-cols-4 items-center gap-3 justify-center key-features">
 				<p>
 					<i class="fa-regular fa-circle-check"></i>
 					ইনভয়েস ম্যানেজমেন্ট
