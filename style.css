@@ -390,3 +390,10 @@ footer a {
   line-height: 26px;
   margin-top: 12px;
 }
+.specs p {
+  color: #272726;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
