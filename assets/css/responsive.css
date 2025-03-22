@@ -99,6 +99,9 @@
     font-size: 18px;
     line-height: 26px;
   }
+  .which-businesse-single {
+    border: none;
+  }
 
   /* Mobile apps section styles */
   .apps-titledesc {
