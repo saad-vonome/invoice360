@@ -715,3 +715,22 @@ footer a {
   border: 1px solid #e2e4e9 !important;
   background-color: #f6fafd !important;
 }
+/* Call to Action Section styles */
+.cta {
+  background: linear-gradient(275deg, #ffe6d4 -1.51%, #d9fffd 100%);
+}
+.cta-content {
+  display: flex;
+  padding: 80px 320px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+.cta-content h2 {
+  color: #272726;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 48px;
+}
