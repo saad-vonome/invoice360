@@ -181,4 +181,21 @@
     font-size: 32px;
     line-height: 44px;
   }
+  /* Faq section styles */
+  .collapse {
+    visibility: unset;
+  }
+  .faqs h2 {
+    font-size: 32px;
+    line-height: 44px;
+    margin-bottom: 32px;
+  }
+  .faqs h4 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .faqs p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
