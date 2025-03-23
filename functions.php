@@ -29,6 +29,8 @@ function enqueue_assets()
     wp_enqueue_style('tailwindcss', get_template_directory_uri() . '/assets/css/output.css', [], '1.0.0.0');
     // Fontawesome
     wp_enqueue_script('font-awesome', 'https://kit.fontawesome.com/1872231847.js', [], null);
+    //Smart Invoice page styles
+    wp_enqueue_style('smart-invoice', get_template_directory_uri() . '/assets/css/smart-invoice.css', [], '1.0.0.0');
 }
 add_action('wp_enqueue_scripts', 'enqueue_assets');
 

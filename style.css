@@ -26,6 +26,32 @@ a {
   line-height: 26px;
 }
 
+h2 {
+  font-family: "Hind Siliguri", sans-serif !important;
+  color: #272726 !important;
+  font-size: 44px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 56px !important;
+}
+h3 {
+  font-family: "Hind Siliguri", sans-serif !important;
+  color: #272726 !important;
+  font-size: 32px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 40px !important;
+}
+
+h5 {
+  font-family: "Hind Siliguri", sans-serif !important;
+  color: #272726 !important;
+  font-size: 20px !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  line-height: 28px !important;
+}
+
 .btnPrimary {
   border-radius: 30px;
   padding: 17px 36px;
@@ -220,12 +246,6 @@ header {
   height: 48px;
 }
 
-footer h5 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 28px;
-}
-
 footer ul {
   padding: 0;
   margin: 0;
@@ -326,19 +346,8 @@ footer a {
 /* Why Choose Us styles */
 .why-choose-us h2 {
   width: 520px;
-  color: #272726;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
 }
-.why-choose-us h5 {
-  color: #272726;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-}
+
 .why-choose-details {
   width: 380px;
   font-size: 18px;
@@ -358,12 +367,7 @@ footer a {
   background-position: center;
 }
 .products h2 {
-  color: #272726;
   text-align: center;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
 }
 .product {
   padding: 30px;
@@ -419,11 +423,6 @@ footer a {
 /* For which business styles */
 .which-businesse h2 {
   width: 520px;
-  color: #272726;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
 }
 
 .business-owner {
@@ -451,11 +450,6 @@ footer a {
   border: none;
 }
 .which-businesse-single h5 {
-  color: #272726;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
   margin-top: 24px;
 }
 /* Mobile apps section styles */
@@ -472,11 +466,6 @@ footer a {
 }
 .apps-titledesc h2 {
   text-align: center;
-  color: #272726;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
 }
 .apps-titledesc p {
   color: #272726;
@@ -507,24 +496,12 @@ footer a {
 .app-feature:last-child {
   border: none;
 }
-.app-feature h5 {
-  color: #272726;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-}
 
 /* Features Section Styles */
 .features h2 {
   width: 675px;
   margin: 0 auto;
   text-align: center;
-  color: #272726;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
   margin-bottom: 32px;
 }
 .feature {
@@ -551,11 +528,6 @@ footer a {
 /* Achievement Section Styles */
 .achievements h2 {
   text-align: center;
-  color: #272726;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
   margin-bottom: 56px;
 }
 .achievement {
@@ -579,10 +551,7 @@ footer a {
   line-height: 88px;
 }
 .achievement h5 {
-  color: #272726;
   font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 32px;
 }
 .achievement p {
@@ -603,11 +572,6 @@ footer a {
   background-position: center;
 }
 .testimonials h2 {
-  color: #272726;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
   margin-bottom: 56px;
 }
 .ctrl-angle {
@@ -659,7 +623,6 @@ footer a {
 .testimonial-client h5 {
   color: #555556;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
   line-height: 26px;
 }
@@ -677,11 +640,6 @@ footer a {
   visibility: unset;
 }
 .faqs h2 {
-  color: #272726;
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 56px;
   margin-bottom: 56px;
   text-align: center;
 }
@@ -728,10 +686,7 @@ footer a {
   gap: 80px;
 }
 .cta-content h2 {
-  color: #272726;
   font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
   line-height: 60px;
   margin-bottom: 48px;
 }
