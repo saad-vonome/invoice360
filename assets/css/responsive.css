@@ -192,4 +192,22 @@
       line-height: 24px;
     }
   }
+  /* Smart Invoice Hero Section */
+  .smart-hero-content {
+    width: 100%;
+  }
+  .smart-hero-content h1 {
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  /* Demo Video Styles */
+  .video-container {
+    width: 360px;
+    height: 100%;
+  }
+
+  iframe {
+    border-radius: 30px;
+  }
 }

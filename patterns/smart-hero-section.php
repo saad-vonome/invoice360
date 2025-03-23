@@ -14,7 +14,7 @@
 
 ?>
 <section class="smart-hero-section">
-	<div class="container max-xl md:pt-14 flex items-center gap-20">
+	<div class="container max-xl py-20 md:md:py-32 flex flex-col md:flex-row items-center gap-10 md:gap-20">
 		<div class="smart-hero-content">
 			<p class="hero-notification">
 				<img src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/flame.png" alt="Fire/Flame Image" />
