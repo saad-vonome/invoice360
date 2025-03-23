@@ -53,13 +53,13 @@ $testimonials = [
             <div class="flex items-center gap-8">
                 <button
                     class="ctrl-angle"
-                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-target="#clientReviews"
                     data-bs-slide="prev">
                     <i class="fa-solid fa-angle-left fa-lg"></i>
                 </button>
                 <button
                     class="ctrl-angle"
-                    data-bs-target="#carouselExampleCaptions"
+                    data-bs-target="#clientReviews"
                     data-bs-slide="next">
                     <i class="fa-solid fa-angle-right fa-lg"></i>
                 </button>
@@ -67,8 +67,9 @@ $testimonials = [
         </div>
 
         <!-- Carousel -->
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
+        <div id="clientReviews" class="carousel slide" data-bs-ride="carousel">
+            <!-- Carousel for desktop  -->
+            <div class="carousel-inner hidden md:block">
                 <?php
                 // Split testimonials into chunks of 3 per slide
                 $chunks = array_chunk($testimonials, 3);
@@ -76,7 +77,7 @@ $testimonials = [
 
                 foreach ($chunks as $chunk) : ?>
                     <div class="carousel-item <?php echo $isActive; ?>">
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                        <div class="grid grid-cols-3 gap-10">
                             <?php foreach ($chunk as $testimonial) : ?>
                                 <div>
                                     <div class="testimonial-card">
@@ -99,10 +100,37 @@ $testimonials = [
                             <?php endforeach; ?>
                         </div>
                     </div>
-                    <?php $isActive = ''; // Only first item should have "active" class 
+                    <?php $isActive = '';
                     ?>
                 <?php endforeach; ?>
             </div>
+
+            <!-- Carousel for mobile -->
+            <div class="carousel-inner flex md:hidden">
+                <?php
+                $isActive = 'active'; // Reset for mobile
+                foreach ($testimonials as $testimonial) : ?>
+                    <div class="carousel-item <?php echo $isActive; ?>">
+                        <div class="testimonial-card">
+                            <img src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/icons/qoutation.svg" alt="Qoutation" />
+                            <div>
+                                <h4><?php echo esc_html($testimonial['reviewTitle']) ?></h4>
+                                <p class="desc"><?php echo esc_html($testimonial['description']) ?></p>
+                            </div>
+                            <div class="flex items-center gap-3 testimonial-client">
+                                <img src="<?php echo get_template_directory_uri() . '/assets/images/' . $testimonial['image'] ?>" alt="<?php echo esc_attr($testimonial['name']); ?>">
+                                <div>
+                                    <h5 class="testimonial-name"><?php echo esc_html($testimonial['name']); ?></h5>
+                                    <p class="testimonial-text"><?php echo esc_html($testimonial['designation']); ?></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php $isActive = '';
+                    ?>
+                <?php endforeach; ?>
+            </div>
+
         </div>
     </div>
 </section>
