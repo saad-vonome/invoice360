@@ -21,3 +21,36 @@
   border-radius: 30px;
   border: 1px solid #e2e2e2;
 }
+
+/* Smart Invoice Hero section */
+.smart-hero-section {
+  background-image: url("../images/smart-bg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.smart-hero-content {
+  max-width: 576px;
+  width: 100%;
+}
+.hero-notification {
+  display: flex;
+  padding: 6px 18px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  border: 1px solid #f3f3f3;
+  background: #fff;
+  width: fit-content;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.smart-hero-content h1 {
+  color: #272726;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+}
