@@ -54,3 +54,54 @@
   font-weight: 700;
   line-height: 72px;
 }
+
+/* Smart Invoice Free Solution styles */
+.smart-free-solution h2 {
+  width: 540px;
+  color: #272726;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+}
+
+.smart-free-solution-desc {
+  width: 425px;
+  color: #272726;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+.smart-free-solution {
+  background: linear-gradient(121deg, #e1fafa 0%, #fff0e6 100%);
+}
+.smart-free-solution img {
+  width: 770px;
+  height: auto;
+}
+.smart-solution-specs {
+  width: 511px;
+}
+.spec {
+  margin-bottom: 30px;
+}
+.spec:last-child {
+  margin-bottom: 0px;
+}
+.others-problem,
+.smart-solution {
+  border-radius: 30px;
+  border: 1px solid #f3f3f3;
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.others-problem {
+  background: linear-gradient(180deg, #fff3dd 0%, #fffcf6 100%);
+}
+.smart-solution {
+  background: linear-gradient(0deg, #fdffff 0%, #dffff9 100%);
+}

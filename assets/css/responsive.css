@@ -24,7 +24,8 @@
   /* Heading width */
   .why-choose-us h2,
   .which-businesse h2,
-  .features h2 {
+  .features h2,
+  .smart-free-solution h2 {
     width: 100%;
   }
 
@@ -229,5 +230,22 @@
 
   iframe {
     border-radius: 30px;
+  }
+
+  /* Smart Invoice Free Solution styles */
+  .smart-free-solution-desc {
+    width: 100%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .smart-free-solution img {
+    width: 100%;
+    height: auto;
+  }
+  .smart-solution-specs {
+    width: 100%;
+  }
+  .spec {
+    margin-bottom: 16px;
   }
 }
