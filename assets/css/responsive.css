@@ -254,4 +254,9 @@
   .spec {
     margin-bottom: 16px;
   }
+  /* Smart Business Management Section Styles */
+
+  .smart-feature-only-image {
+    display: none;
+  }
 }
