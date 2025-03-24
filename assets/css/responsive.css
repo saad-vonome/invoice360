@@ -21,6 +21,13 @@
     margin-bottom: 32px;
   }
 
+  /* Heading width */
+  .why-choose-us h2,
+  .which-businesse h2,
+  .features h2 {
+    width: 100%;
+  }
+
   .header-menu .nav-menu {
     flex-direction: column;
     padding: 20px;
@@ -90,7 +97,6 @@
   }
 
   /* For which business styles */
-
   .business-owner {
     display: none;
   }
@@ -156,12 +162,20 @@
     font-size: 14px;
     line-height: 22px;
   }
+  .achievement-desktop {
+    display: none;
+  }
+
+  /* Clients Testimonials section */
   .testimonials {
     padding: 100px 0px;
   }
   /* Faq section styles */
   .collapse {
     visibility: unset;
+  }
+  .carousel-desktop {
+    display: none;
   }
   .faqs h4 {
     font-size: 18px;
@@ -177,6 +191,9 @@
   }
   .cta-content h2 {
     text-align: center;
+  }
+  .cta-content img {
+    display: none;
   }
 
   /* Why Smart Invoice  */

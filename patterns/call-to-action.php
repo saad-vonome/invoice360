@@ -15,7 +15,7 @@
 ?>
 <section class="cta">
     <div class="container max-xl mx-auto cta-content">
-        <img src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/call-to-action.png" alt="একাউন্ট তৈরি করুন" class="hidden md:block" />
+        <img src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/call-to-action.png" alt="একাউন্ট তৈরি করুন" />
         <div>
             <h2>৭৫% সময় সাশ্রয় করুন – ইনভয়েস তৈরি করুন ৩০ সেকেন্ডের মধ্যে!</h2>
             <a href="https://app.invoice360.xyz/signup" class="btnPrimary actionBtn block md:inline mx-auto">একাউন্ট তৈরি করুন</a>

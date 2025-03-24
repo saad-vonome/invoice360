@@ -69,7 +69,7 @@ $testimonials = [
         <!-- Carousel -->
         <div id="clientReviews" class="carousel slide" data-bs-ride="carousel">
             <!-- Carousel for desktop  -->
-            <div class="carousel-inner hidden md:block">
+            <div class="carousel-inner carousel-desktop">
                 <?php
                 // Split testimonials into chunks of 3 per slide
                 $chunks = array_chunk($testimonials, 3);

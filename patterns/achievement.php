@@ -16,7 +16,7 @@
 <section class="achievements">
     <div class="container max-xl mx-auto py-24 md:py-32">
         <h2>আমাদের অর্জনসমূহ</h2>
-        <div class="md:flex items-center gap-8 hidden">
+        <div class="md:flex items-center gap-8 achievement-desktop">
             <img
                 src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/achievement-1.png"
                 alt="আমাদের অর্জনসমূহ"
