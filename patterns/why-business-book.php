@@ -16,32 +16,32 @@ $features = [
 	[
 		"title" => "সম্পূর্ণ কাস্টমাইজেবল ইনভয়েসিং",
 		"description" => "আপনার ব্যবসার ধরন অনুযায়ী ইনভয়েস ডিজাইন করুন।",
-		"image" => "invoice.png"
+		"icon" => "invoice.png"
 	],
 	[
 		"title" => "মাল্টি-বিজনেস ম্যানেজমেন্ট ",
 		"description" => "এক বা একাধিক ব্যবসা একই প্ল্যাটফর্ম থেকে পরিচালনা করুন।",
-		"image" => "multi-business.png"
+		"icon" => "multi-business.png"
 	],
 	[
 		"title" => "ইনভেন্টরি ম্যানেজমেন্ট",
 		"description" => "সব ধরণের পণ্যের স্টক ও সাপ্লাই চেইন ট্র্যাকিং করুন।",
-		"image" => "parcel.png"
+		"icon" => "parcel.png"
 	],
 	[
 		"title" => "অ্যাকাউন্টস ও ফিনান্স সাপোর্ট",
 		"description" => "ব্যবসার জন্য চার্ট অফ অ্যাকাউন্টস ও লেজার ব্যবস্থাপনা করুন।",
-		"image" => "calculator.png"
+		"icon" => "calculator.png"
 	],
 	[
 		"title" => "উন্নত রিপোর্টিং ও বিশ্লেষণ",
 		"description" => "ব্যবসার আয়, ব্যয়, লাভ এবং ট্যাক্স রিপোর্ট পান সহজে।",
-		"image" => "stats.png"
+		"icon" => "stats.png"
 	],
 	[
 		"title" => "পেমেন্ট ট্র্যাকিং ও রিমাইন্ডার",
 		"description" => "ইনভয়েসের বকেয়া ও পরিশোধিত পেমেন্ট সহজে পরিচালনা করুন।",
-		"image" => "payment-success.png"
+		"icon" => "payment-success.png"
 	]
 ];
 
@@ -74,10 +74,10 @@ $businessBookSpecs = [
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
 			<?php foreach ($features as $feature): ?>
 				<div class="biz-feature-card">
-					<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/icons/' . $feature['image']) ?>" alt="<?php echo esc_attr($feature['title']) ?>" />
+					<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/icons/' . $feature['icon']) ?>" alt="<?php echo esc_attr($feature['title']) ?>" />
 					<div>
 						<h5><?php echo esc_html($feature['title']); ?></h5>
-						<p class="pt-2"><?php echo esc_html($feature['description']); ?></p>
+						<p><?php echo esc_html($feature['description']); ?></p>
 					</div>
 				</div>
 			<?php endforeach; ?>

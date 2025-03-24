@@ -279,6 +279,11 @@
   }
 
   /* Business book features section styles */
+
+  .biz-feature-card {
+    padding: 14px;
+    gap: 14px;
+  }
   .biz-spec {
     width: 100%;
   }
