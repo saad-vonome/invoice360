@@ -43,7 +43,7 @@ $features = [
 ?>
 <section class="smart-business-management">
 	<div class="container max-xl mx-auto py-24 md:py-36">
-		<div class="block mx-auto text-center">
+		<div class="text-center">
 			<h2>ব্যবসার আর্থিক ব্যবস্থাপনা এখন আরও সহজ!</h2>
 			<p>Smart Invoice-এর মাধ্যমে ইনকাম, এক্সপেন্স, ইনভয়েস, পেমেন্ট, এবং গ্রাহক ম্যানেজমেন্ট করুন এক প্ল্যাটফর্মে! </p>
 			<div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 my-8">

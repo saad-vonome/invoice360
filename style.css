@@ -12,15 +12,6 @@ Text Domain: invoice-360-vonome
 */
 
 /* //Common Styles */
-p {
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 30px;
-  color: #272726;
-}
-
 a {
   font-family: "Hind Siliguri", sans-serif;
   font-weight: 500;
@@ -53,6 +44,14 @@ h5 {
   font-style: normal !important;
   font-weight: 700 !important;
   line-height: 28px !important;
+}
+p {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #272726;
 }
 
 .btnPrimary {

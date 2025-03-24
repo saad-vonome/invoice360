@@ -31,7 +31,8 @@
   .which-businesse h2,
   .features h2,
   .smart-free-solution h2,
-  .smart-income-expense h2 {
+  .smart-income-expense h2,
+  .smart-cta h2 {
     width: 100%;
   }
 
@@ -217,6 +218,9 @@
     }
   }
   /* Smart Invoice Hero Section */
+  .smart-hero-section {
+    background-image: url("../images/smart-mobile-bg.svg");
+  }
   .smart-hero-content {
     width: 100%;
   }
@@ -255,8 +259,11 @@
     margin-bottom: 16px;
   }
   /* Smart Business Management Section Styles */
-
   .smart-feature-only-image {
     display: none;
+  }
+  /* Smart Call to action section styles */
+  .smart-cta {
+    background-image: url("../images/smart-cta-mobile-bg.svg");
   }
 }

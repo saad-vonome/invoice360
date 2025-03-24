@@ -27,7 +27,6 @@
   background-image: url("../images/smart-bg.svg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 .smart-hero-content {
@@ -103,6 +102,7 @@
 
 /* Smart Income Expense Section Styles */
 .smart-income-expense h2 {
+  margin: 0 auto;
   width: 600px;
 }
 .income-expense-feature i {
@@ -114,4 +114,16 @@
 /* Smart Business Management Section Styles */
 .sbm-feature img {
   padding: 30px;
+}
+
+/* Smart Call to action section styles */
+.smart-cta {
+  background-image: url("../images/smart-cta-bg.svg");
+  background-size: cover;
+  background-position: center;
+}
+.smart-cta h2 {
+  margin: 0 auto;
+  width: 670px;
+  text-align: center;
 }
