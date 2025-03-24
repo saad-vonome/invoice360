@@ -226,7 +226,8 @@
     width: 100%;
   }
   .smart-hero-content h1,
-  .biz-hero-content h1 {
+  .biz-hero-content h1,
+  .biz-spec h1 {
     font-size: 40px;
     line-height: 48px;
   }
@@ -275,5 +276,15 @@
   }
   .biz-hero-book-video > img {
     display: none;
+  }
+
+  /* Business book features section styles */
+  .biz-spec {
+    width: 100%;
+  }
+
+  .biz-spec p {
+    font-size: 18px;
+    line-height: 26px;
   }
 }

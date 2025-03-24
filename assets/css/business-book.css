@@ -4,3 +4,30 @@
 .biz-hero-desc {
   width: 500px;
 }
+.biz-feature-card {
+  display: flex;
+  padding: 20px;
+  align-items: flex-start;
+  gap: 20px;
+}
+/* Business Book Specifications Section */
+.biz-specs {
+  border-radius: 15px;
+  background: linear-gradient(91deg, #f8b381 -0.2%, #fea36b 99.85%);
+  /* Shadow 01 */
+  box-shadow: 0px 54px 100px 0px rgba(10, 4, 60, 0.08);
+}
+.biz-spec {
+  width: 200px;
+}
+.biz-spec h1 {
+  color: #fff;
+}
+
+.biz-spec p {
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}

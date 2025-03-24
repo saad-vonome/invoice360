@@ -748,7 +748,8 @@ iframe {
 }
 
 .smart-hero-content h1,
-.biz-hero-content h1 {
+.biz-hero-content h1,
+.biz-spec h1 {
   color: #272726;
   font-size: 56px;
   font-style: normal;
