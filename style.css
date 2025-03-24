@@ -14,8 +14,11 @@ Text Domain: invoice-360-vonome
 /* //Common Styles */
 p {
   font-family: "Hind Siliguri", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #272726;
 }
 
 a {

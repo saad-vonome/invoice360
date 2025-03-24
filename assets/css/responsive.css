@@ -1,6 +1,11 @@
 /* Media Queries for Responsive Design */
 @media only screen and (max-width: 767px) {
   /* //Common Styles */
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
   h2 {
     font-size: 32px !important;
     line-height: 44px !important;
@@ -25,7 +30,8 @@
   .why-choose-us h2,
   .which-businesse h2,
   .features h2,
-  .smart-free-solution h2 {
+  .smart-free-solution h2,
+  .smart-income-expense h2 {
     width: 100%;
   }
 
