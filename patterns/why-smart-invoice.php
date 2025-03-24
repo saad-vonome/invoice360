@@ -55,7 +55,7 @@ $features = [
 					ইনভয়েস তৈরি থেকে পেমেন্ট ট্র্যাকিং—সবকিছু এক প্ল্যাটফর্মে দ্রুত ও নির্ভরযোগ্যভাবে পরিচালনা করুন!
 				</p>
 			</div>
-			<img src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/qoute line.png" alt="qoute line" class="hidden md:block" />
+			<img src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/qoute line.png" alt="qoute line" class="why-smart-exception-image" />
 			<div class="flex items-center gap-6">
 				<div class="w-[200px]">
 					<h3>৩০ সেকেন্ডে</h3>
@@ -86,7 +86,7 @@ $features = [
 						<img
 							src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $feature['image']) ?>"
 							alt="<?php echo esc_attr($feature['title']) ?>"
-							class="h-full hidden md:block" />
+							class="h-full why-smart-exception-image" />
 					</div>
 				<?php endif; ?>
 			<?php endforeach; ?>

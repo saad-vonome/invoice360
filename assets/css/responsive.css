@@ -217,6 +217,9 @@
     font-size: 40px;
     line-height: 48px;
   }
+  .why-smart-exception-image {
+    display: none;
+  }
 
   /* Demo Video Styles */
   .video-container {
