@@ -32,7 +32,8 @@
   .features h2,
   .smart-free-solution h2,
   .smart-income-expense h2,
-  .smart-cta h2 {
+  .smart-cta h2,
+  .biz-hero-content h1 {
     width: 100%;
   }
 
@@ -224,7 +225,8 @@
   .smart-hero-content {
     width: 100%;
   }
-  .smart-hero-content h1 {
+  .smart-hero-content h1,
+  .biz-hero-content h1 {
     font-size: 40px;
     line-height: 48px;
   }
@@ -234,12 +236,8 @@
 
   /* Demo Video Styles */
   .video-container {
-    width: 360px;
-    height: 100%;
-  }
-
-  iframe {
-    border-radius: 30px;
+    max-width: 100%;
+    height: auto;
   }
 
   /* Smart Invoice Free Solution styles */
@@ -265,5 +263,17 @@
   /* Smart Call to action section styles */
   .smart-cta {
     background-image: url("../images/smart-cta-mobile-bg.svg");
+  }
+
+  /* Business Book Hero section Styles */
+  .biz-hero-section h1 {
+    text-align: center;
+  }
+  .biz-hero-desc {
+    max-width: 300px;
+    width: 100%;
+  }
+  .biz-hero-book-video > img {
+    display: none;
   }
 }

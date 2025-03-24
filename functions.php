@@ -29,6 +29,8 @@ function enqueue_assets()
     wp_enqueue_script('font-awesome', 'https://kit.fontawesome.com/1872231847.js', [], null);
     //Smart Invoice page styles
     wp_enqueue_style('smart-invoice', get_template_directory_uri() . '/assets/css/smart-invoice.css', [], '1.0.0.0');
+    //Business Book page styles
+    wp_enqueue_style('business-book', get_template_directory_uri() . '/assets/css/business-book.css', [], '1.0.0.0');
     //Play video script
     wp_enqueue_script('play-video', get_template_directory_uri() . '/assets/js/play-video.js', [], '1.0.0');
     //Responsive styles

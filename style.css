@@ -738,3 +738,20 @@ footer a {
 iframe {
   border-radius: 40px;
 }
+/* Smart Invoice and Business Book combined styles */
+
+.smart-hero-section,
+.biz-hero-section {
+  background-image: url("./assets/images/smart-bg.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.smart-hero-content h1,
+.biz-hero-content h1 {
+  color: #272726;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+}
