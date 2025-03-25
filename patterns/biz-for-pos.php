@@ -29,6 +29,56 @@ $features = [
 		"image" => "automated-calculation-reporting.png"
 	]
 ];
+$faqs = [
+	[
+		"id" => 1,
+		"title" => "ফার্মেসি ও মেডিকেল শপ",
+		"description" => "এক্সপায়ারি ট্র্যাকিং, মাল্টি-ব্র্যান্ড ওষুধ বিক্রি, দ্রুত স্ক্যানিং ও বিলিং, স্টক ও বিক্রয় রিপোর্টিং।",
+		"image" => "pos-dasboard.png",
+	],
+	[
+		"id" => 2,
+		"title" => "ছোট ও মাঝারি ব্যবসা",
+		"description" => "",
+		"image" => "",
+	],
+	[
+		"id" => 3,
+		"title" => "রেস্টুরেন্ট ও ক্যাফে",
+		"description" => "",
+		"image" => "",
+	],
+	[
+		"id" => 4,
+		"title" => "গার্মেন্টস ও ফ্যাশন স্টোর",
+		"description" => "",
+		"image" => "",
+	],
+	[
+		"id" => 5,
+		"title" => "ইলেকট্রনিক ও প্রযুক্তি ব্যবসা",
+		"description" => "",
+		"image" => "",
+	],
+	[
+		"id" => 6,
+		"title" => "জুয়েলারি ও বিলাসবহুল পণ্য",
+		"description" => "",
+		"image" => "",
+	],
+	[
+		"id" => 7,
+		"title" => "ফার্নিচার ও নির্মাণ ব্যবসা",
+		"description" => "",
+		"image" => "",
+	],
+	[
+		"id" => 8,
+		"title" => "ফ্রিল্যান্সার ও ডিজিটাল এজেন্সি",
+		"description" => "",
+		"image" => "",
+	],
+]
 
 ?>
 <section class="biz-all-pos">
@@ -56,6 +106,26 @@ $features = [
 						</div>
 					</div>
 				<?php endforeach; ?>
+			</div>
+		</div>
+		<!-- Categories Accordion -->
+		<div class="pos-categories-mobile">
+			<div class="accordion" id="faqs">
+				<?php foreach ($faqs as $faq): ?>
+					<div class="accordion-item">
+						<h5 class="accordion-header">
+							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#<?php echo esc_attr($faq['id']) ?>" aria-expanded="true" aria-controls="<?php echo esc_attr($faq['id']) ?>">
+								<?php echo esc_html($faq['title']) ?>
+							</button>
+						</h5>
+						<div id="<?php echo esc_attr($faq['id']) ?>" class="accordion-collapse collapse <?php if ($faq['id'] === 1) echo esc_attr('show') ?>" data-bs-parent="#faqs">
+							<div class="accordion-body">
+								<p><?php echo esc_html($faq['description']) ?></p>
+								<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $faq['image']) ?>" />
+							</div>
+						</div>
+					</div>
+				<?php endforeach ?>
 			</div>
 		</div>
 	</div>

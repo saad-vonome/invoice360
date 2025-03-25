@@ -306,4 +306,14 @@
   .pos-feature-image {
     display: none;
   }
+  .pos-categories-mobile {
+    display: block;
+  }
+  .pos-categories-mobile h5 {
+    color: #272726;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+  }
 }

@@ -58,3 +58,6 @@
   padding: 30px;
   padding-right: 0px;
 }
+.pos-categories-mobile {
+  display: none;
+}
