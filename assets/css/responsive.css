@@ -68,8 +68,12 @@
     font-size: 40px;
     line-height: 48px;
   }
-  .hero-content {
+  .hero-content-area {
     width: 90%;
+    text-align: start;
+  }
+  .key-features {
+    width: 100%;
   }
 
   .actionBtn {

@@ -299,7 +299,7 @@ footer a {
   background-size: cover;
   background-position: center;
 }
-.hero-content {
+.hero-content-area {
   max-width: 810px;
   width: 100%;
 }
@@ -339,6 +339,9 @@ footer a {
 .google-play {
   height: 35px;
   width: 120px;
+}
+.key-features {
+  width: 90%;
 }
 .key-features p > i {
   margin-right: 8px;

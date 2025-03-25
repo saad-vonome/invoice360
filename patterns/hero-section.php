@@ -14,8 +14,8 @@
 
 ?>
 <section class="hero-section">
-	<div class="max-xl mx-auto pt-16 md:pt-14 text-center">
-		<div class="hero-content mx-auto">
+	<div class="container max-xl mx-auto pt-16 md:pt-14 text-center">
+		<div class="hero-content-area mx-auto">
 			<div class="notification">
 				<button>New</button>
 				<p>শীঘ্রই আরো নতুন ফিচারস যুক্ত হচ্ছে</p>
@@ -32,7 +32,7 @@
 					<img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/google-play.png" alt="Get In On Google Play" class="google-play" />
 				</a>
 			</div>
-			<div class="grid grid-cols-2 md:grid-cols-4 items-center gap-3 justify-center key-features">
+			<div class="grid grid-cols-2 md:grid-cols-4 items-center justify-center key-features">
 				<p>
 					<i class="fa-regular fa-circle-check"></i>
 					ইনভয়েস ম্যানেজমেন্ট
