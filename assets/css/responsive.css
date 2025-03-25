@@ -35,7 +35,8 @@
   .smart-cta h2,
   .biz-hero-content h1,
   .biz-all-pos h2,
-  .new-gen-biz-management h2 {
+  .new-gen-biz-management h2,
+  .biz-features h2 {
     width: 100%;
   }
 
@@ -144,7 +145,8 @@
   .feature {
     padding: 20px 16px;
   }
-  .feature h4 {
+  .feature h4,
+  .biz-feature h4 {
     font-size: 24px;
     line-height: 32px;
   }
@@ -322,5 +324,11 @@
     display: block;
     width: 100%;
     margin: 0 auto;
+  }
+
+  /* Business Features Section Styles */
+  .biz-feature {
+    border-radius: 24px;
+    padding: 24px 0px 0px 24px;
   }
 }
