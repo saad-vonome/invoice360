@@ -31,3 +31,30 @@
   font-weight: 500;
   line-height: 32px;
 }
+
+/* Business book for all kind of pos section styles */
+.biz-all-pos h2 {
+  width: 530px;
+}
+.biz-pos-desc {
+  width: 600px;
+}
+.biz-all-pos-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+  gap: 20px;
+}
+.biz-all-pos-card img {
+  border-radius: 30px;
+}
+.pos-card-wrapper {
+  margin-top: 70px;
+}
+.pos-dashbaord-img {
+  border-radius: 30px;
+  background: linear-gradient(121deg, #e1fafa 0%, #ebf0ff 100%);
+  padding: 30px;
+  padding-right: 0px;
+}

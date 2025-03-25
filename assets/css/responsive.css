@@ -33,7 +33,8 @@
   .smart-free-solution h2,
   .smart-income-expense h2,
   .smart-cta h2,
-  .biz-hero-content h1 {
+  .biz-hero-content h1,
+  .biz-all-pos h2 {
     width: 100%;
   }
 
@@ -117,7 +118,8 @@
   }
 
   /* Mobile apps section styles */
-  .apps-titledesc {
+  .apps-titledesc,
+  .biz-pos-desc {
     width: 100%;
   }
   .apps-titledesc p {
@@ -291,5 +293,17 @@
   .biz-spec p {
     font-size: 18px;
     line-height: 26px;
+  }
+
+  /* Business book for all kind of pos section styles */
+  .biz-all-pos-card {
+    gap: 16px;
+    padding: 0px;
+  }
+  .pos-card-wrapper {
+    margin-top: 30px;
+  }
+  .pos-feature-image {
+    display: none;
   }
 }
