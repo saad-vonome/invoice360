@@ -95,37 +95,39 @@ $faqs = [
 				<img src="<?php echo esc_url(get_template_directory_uri()) ?>/assets/images/pos-dasboard.png" alt="পস ড্যাশবোর্ড" />
 			</div>
 		</div>
-		<div class="pos-card-wrapper">
-			<div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
-				<?php foreach ($features as $feature): ?>
-					<div class="biz-all-pos-card">
-						<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $feature['image']) ?>" alt="<?php echo esc_attr($feature['title']) ?>" />
-						<div>
-							<h5><?php echo esc_html($feature['title']); ?></h5>
-							<p><?php echo esc_html($feature['description']); ?></p>
-						</div>
-					</div>
-				<?php endforeach; ?>
-			</div>
-		</div>
-		<!-- Categories Accordion -->
-		<div class="pos-categories-mobile">
-			<div class="accordion" id="faqs">
-				<?php foreach ($faqs as $faq): ?>
-					<div class="accordion-item">
-						<h5 class="accordion-header">
-							<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#<?php echo esc_attr($faq['id']) ?>" aria-expanded="true" aria-controls="<?php echo esc_attr($faq['id']) ?>">
-								<?php echo esc_html($faq['title']) ?>
-							</button>
-						</h5>
-						<div id="<?php echo esc_attr($faq['id']) ?>" class="accordion-collapse collapse <?php if ($faq['id'] === 1) echo esc_attr('show') ?>" data-bs-parent="#faqs">
-							<div class="accordion-body">
-								<p><?php echo esc_html($faq['description']) ?></p>
-								<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $faq['image']) ?>" />
+		<div class="flex flex-col-reverse md:flex-col">
+			<div class="pos-card-wrapper">
+				<div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-10">
+					<?php foreach ($features as $feature): ?>
+						<div class="biz-all-pos-card">
+							<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $feature['image']) ?>" alt="<?php echo esc_attr($feature['title']) ?>" />
+							<div>
+								<h5><?php echo esc_html($feature['title']); ?></h5>
+								<p><?php echo esc_html($feature['description']); ?></p>
 							</div>
 						</div>
-					</div>
-				<?php endforeach ?>
+					<?php endforeach; ?>
+				</div>
+			</div>
+			<!-- Categories Accordion -->
+			<div class="pos-categories-mobile">
+				<div class="accordion" id="faqs">
+					<?php foreach ($faqs as $faq): ?>
+						<div class="accordion-item">
+							<h5 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#<?php echo esc_attr($faq['id']) ?>" aria-expanded="true" aria-controls="<?php echo esc_attr($faq['id']) ?>">
+									<?php echo esc_html($faq['title']) ?>
+								</button>
+							</h5>
+							<div id="<?php echo esc_attr($faq['id']) ?>" class="accordion-collapse collapse <?php if ($faq['id'] === 1) echo esc_attr('show') ?>" data-bs-parent="#faqs">
+								<div class="accordion-body">
+									<p><?php echo esc_html($faq['description']) ?></p>
+									<img src="<?php echo esc_url(get_template_directory_uri() . '/assets/images/' . $faq['image']) ?>" />
+								</div>
+							</div>
+						</div>
+					<?php endforeach ?>
+				</div>
 			</div>
 		</div>
 	</div>
