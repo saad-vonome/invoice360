@@ -130,5 +130,10 @@ $faqs = [
 				</div>
 			</div>
 		</div>
+		<!-- Action Buttons -->
+		<div class="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mt-7">
+			<a href="/plans-pricing" class="btnPrimary actionBtn">প্লান ও প্রাইসিং দেখুন</a>
+			<a href="https://app.invoice360.xyz/" class="btnPrimaryAlt actionBtn">এখনই একাউন্ট খুলুন</a>
+		</div>
 	</div>
 </section>
