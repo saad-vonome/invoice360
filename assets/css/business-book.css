@@ -61,3 +61,11 @@
 .pos-categories-mobile {
   display: none;
 }
+
+/* New Generation Business Management Secion Styles */
+.new-gen-biz-management {
+  background: linear-gradient(180deg, #dbfaff 0%, #f1fffc 100%),
+    url("../images/bg-grid.png");
+  background-size: cover;
+  background-position: center;
+}

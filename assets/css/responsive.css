@@ -34,7 +34,8 @@
   .smart-income-expense h2,
   .smart-cta h2,
   .biz-hero-content h1,
-  .biz-all-pos h2 {
+  .biz-all-pos h2,
+  .new-gen-biz-management h2 {
     width: 100%;
   }
 
@@ -315,5 +316,11 @@
     font-style: normal;
     font-weight: 700;
     line-height: 26px;
+  }
+
+  .trial-btn {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
   }
 }

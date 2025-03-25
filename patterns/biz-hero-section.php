@@ -30,7 +30,7 @@
 				<div class="flex items-center gap-4">
 					<p class="flex items-center gap-2">
 						<i class="fa-regular fa-circle-check"></i>
-						৭ দিনের ফ্রি ট্রাইল
+						৭ দিনের ফ্রি ট্রায়াল
 					</p>
 					<p class="flex items-center gap-2">
 						<i class="fa-regular fa-circle-check"></i>
