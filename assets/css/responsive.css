@@ -36,7 +36,8 @@
   .biz-hero-content h1,
   .biz-all-pos h2,
   .new-gen-biz-management h2,
-  .biz-features h2 {
+  .biz-features h2,
+  .plans-pricing-packages h1 {
     width: 100%;
   }
 
@@ -64,7 +65,8 @@
   .notification {
     margin-bottom: 16px;
   }
-  .hero-section h1 {
+  .hero-section h1,
+  .plans-pricing-packages h1 {
     font-size: 40px;
     line-height: 48px;
   }
@@ -228,7 +230,9 @@
     }
   }
   /* Smart Invoice Hero Section */
-  .smart-hero-section {
+  .smart-hero-section,
+  .biz-hero-section,
+  .plans-pricing-packages {
     background-image: url("../images/smart-mobile-bg.svg");
   }
   .smart-hero-content {
@@ -236,7 +240,8 @@
   }
   .smart-hero-content h1,
   .biz-hero-content h1,
-  .biz-spec h1 {
+  .biz-spec h1,
+  .plans-pricing-packages h1 {
     font-size: 40px;
     line-height: 48px;
   }
@@ -334,5 +339,20 @@
   .biz-feature {
     border-radius: 24px;
     padding: 24px 0px 0px 24px;
+  }
+
+  /* Plans and Pricing page styles */
+  .pricing h3 {
+    font-size: 28px !important;
+    line-height: 36px !important;
+  }
+  .pricing h4 {
+    font-size: 26px !important;
+  }
+  .pricing-desc {
+    margin-bottom: 20px;
+  }
+  .getStartedBtn {
+    margin: 20px 0px;
   }
 }

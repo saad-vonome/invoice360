@@ -1,0 +1,89 @@
+/* Plans and Pricing page styles */
+.plans-pricing-packages h1 {
+  text-align: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.pricing {
+  min-width: 25%;
+}
+.pricing h3 {
+  font-size: 30px !important;
+  line-height: 38px !important;
+}
+.pricing-desc {
+  margin-top: 16px;
+  margin-bottom: 30px;
+  color: #272726;
+  font-size: 16px;
+}
+.pricing h4 {
+  font-size: 32px !important;
+}
+
+.plan-color {
+  width: 16px;
+  height: 40px;
+  border-radius: 5px;
+}
+.getStartedBtn {
+  margin: 30px 0px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  align-self: stretch;
+  border-radius: 30px;
+  border: 1px solid #149e85;
+  box-shadow: 0px 4px 20px 0px rgba(20, 158, 133, 0.1);
+  background: #e8fffb;
+  a {
+    width: 100%;
+    padding: 14px 8px;
+    text-decoration: none;
+    color: #149e85;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+  &:hover {
+    background: linear-gradient(95deg, #149e85 6.26%, #1ed0b0 112.27%);
+  }
+  &:hover a {
+    color: #fff;
+  }
+}
+
+.btnActive {
+  background: linear-gradient(95deg, #149e85 6.26%, #1ed0b0 112.27%);
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  &:hover {
+    background: #e8fffb;
+  }
+  &:hover a {
+    color: #149e85;
+  }
+}
+
+.billing-cycle {
+  color: #555556;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.product-name {
+  color: #555556;
+  font-family: "Lexend", sans-serif;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: -12px;
+}

@@ -33,6 +33,8 @@ function enqueue_assets()
     wp_enqueue_style('business-book', get_template_directory_uri() . '/assets/css/business-book.css', [], '1.0.0.0');
     //Play video script
     wp_enqueue_script('play-video', get_template_directory_uri() . '/assets/js/play-video.js', [], '1.0.0');
+    //Plans and Pricing page styles
+    wp_enqueue_style('plans-pricing', get_template_directory_uri() . '/assets/css/plans-pricing.css', [], '1.0.0');
     //Responsive styles
     wp_enqueue_style('responsive', get_template_directory_uri() . '/assets/css/responsive.css', [], '1.0.0.0');
 }
