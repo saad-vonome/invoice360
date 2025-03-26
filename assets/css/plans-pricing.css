@@ -11,6 +11,9 @@
   font-size: 30px !important;
   line-height: 38px !important;
 }
+.bestSeller {
+  background-color: #eef8f6;
+}
 .pricing-desc {
   margin-top: 16px;
   margin-bottom: 30px;
@@ -86,4 +89,47 @@
   font-style: normal;
   font-weight: 500;
   margin-top: -12px;
+}
+
+/* feature table section styles */
+.package-features h2 {
+  margin-bottom: 56px;
+}
+.feature-table {
+  font-family: "Hind Siliguri", sans-serif;
+  thead {
+    tr {
+      border-radius: 16px 16px 0px 0px;
+      background: linear-gradient(350deg, #dde4ff -146.38%, #5e8bfc 92.67%);
+      color: #fff;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 32px;
+    }
+  }
+  tbody {
+    color: #272726;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    tr:nth-child(odd) {
+      border: 0.5px solid #f3f3f3;
+      background: #f6fafd;
+    }
+  }
+  .fa-circle-check {
+    color: #149e85;
+    height: 26px;
+    width: 26px;
+  }
+  .fa-circle-xmark {
+    color: #e55b5b;
+    height: 26px;
+    width: 26px;
+  }
+  .name-col {
+    width: auto;
+  }
 }

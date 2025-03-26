@@ -1,11 +1,11 @@
 <?php
 
 /**
- * Title: Pricing Plans Packages section
- * Slug: invoice-360-vonome/plans-pricing-packages
+ * Title: Invoice 360 - Pricing Packages section
+ * Slug: invoice-360-vonome/pricing-packages
  * Categories: Plans & Pricing
- * Block Types: core/template-part/plans-pricing-packages
- * Description: Invoice 360 - Smart Invoice Hero Section.
+ * Block Types: core/template-part/pricing-packages
+ * Description: Invoice 360 - Pricing Packages section.
  *
  * @package WordPress
  * @subpackage Twenty_Twenty_Five
@@ -85,7 +85,7 @@ $products = [
 		<h1>আপনার ব্যবসার জন্য সঠিক প্ল্যান নির্বাচন করুন</h1>
 		<div class="flex flex-col md:flex-row gap-6 md:gap-7 mt-12 justify-center">
 			<?php foreach ($products as $key => $product): ?>
-				<div class="product pricing">
+				<div class="product pricing <?php if ($key === 2) echo esc_attr('bestSeller') ?>">
 					<div class="flex items-end gap-3 justify-start md:justify-between">
 						<div class="flex gap-3 items-start">
 							<div class="plan-color" style="background-color: <?php echo esc_html($product['color']) ?>">

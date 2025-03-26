@@ -355,4 +355,35 @@
   .getStartedBtn {
     margin: 20px 0px;
   }
+
+  /* feature table section styles */
+  .package-features h2 {
+    margin-bottom: 32px;
+  }
+  .feature-table {
+    thead {
+      tr {
+        font-size: 18px;
+        line-height: 26px;
+      }
+    }
+    tbody {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    .name-col {
+      min-width: 220px;
+      width: 100%;
+      position: sticky;
+      z-index: 99;
+      left: 0;
+      width: auto;
+    }
+    .name-header {
+      background: linear-gradient(350deg, #c7d0f7 -146.38%, #5986f8 92.67%);
+    }
+    .name-title {
+      background-color: #f6fafd;
+    }
+  }
 }
