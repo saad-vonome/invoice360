@@ -761,3 +761,25 @@ iframe {
   font-weight: 700;
   line-height: 72px;
 }
+
+/* Live Chat section styles*/
+.live-chat {
+  margin-top: 120px;
+  margin-bottom: 80px;
+  border-radius: 30px;
+  background: linear-gradient(275deg, #ffddc8 0%, #cefff6 100%) !important;
+  position: relative;
+}
+.live-chat h1 {
+  color: #272726;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+}
+.live-chat img {
+  margin-top: -130px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

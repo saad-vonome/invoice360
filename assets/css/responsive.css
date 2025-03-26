@@ -66,7 +66,13 @@
     margin-bottom: 16px;
   }
   .hero-section h1,
-  .plans-pricing-packages h1 {
+  .plans-pricing-packages h1,
+  .achievement h1,
+  .smart-hero-content h1,
+  .biz-hero-content h1,
+  .biz-spec h1,
+  .plans-pricing-packages h1,
+  .live-chat h1 {
     font-size: 40px;
     line-height: 48px;
   }
@@ -170,10 +176,7 @@
   .achievement-exeption {
     display: flex;
   }
-  .achievement h1 {
-    font-size: 40px;
-    line-height: 48px;
-  }
+
   .achievement h5 {
     font-size: 20px;
     line-height: 28px;
@@ -237,13 +240,6 @@
   }
   .smart-hero-content {
     width: 100%;
-  }
-  .smart-hero-content h1,
-  .biz-hero-content h1,
-  .biz-spec h1,
-  .plans-pricing-packages h1 {
-    font-size: 40px;
-    line-height: 48px;
   }
   .why-smart-exception-image {
     display: none;
@@ -385,5 +381,14 @@
     .name-title {
       background-color: #f6fafd;
     }
+  }
+  /* Live Chat section styles*/
+  .live-chat {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 0;
+  }
+  .live-chat img {
+    display: none;
   }
 }

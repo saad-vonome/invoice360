@@ -132,4 +132,11 @@
   .name-col {
     width: auto;
   }
+
+  /* Live Chat section styles*/
+  .live-chat {
+    border-radius: 30px;
+    /* background: linear-gradient(275deg, #ffddc8 0%, #cefff6 100%) !important; */
+    background-color: #149e85 !important;
+  }
 }
